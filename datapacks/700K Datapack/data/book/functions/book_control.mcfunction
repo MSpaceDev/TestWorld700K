@@ -9,7 +9,7 @@
 #
 
 # Update gamerule scores for book
-function main:update_scores
+function book:update_scores
 
 # Toggles doTileDrops
 execute as @a[scores={doTileDrops=1}] at @s run gamerule doTileDrops false
