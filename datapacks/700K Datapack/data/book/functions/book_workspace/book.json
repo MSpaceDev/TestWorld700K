@@ -1,0 +1,2961 @@
+[
+	"
+		[
+			\"\",
+			{
+				\"text\": \"TABLE OF CONTENTS\\n\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"text\": \"General\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"change_page\",
+					\"value\": 2
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"General\"
+					}
+				}
+			},
+			{
+				\"text\": \"Travel\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"change_page\",
+					\"value\": 3
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Travel\"
+					}
+				}
+			},
+			{
+				\"text\": \"Odd Blocks & OP Tools\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"change_page\",
+					\"value\": 4
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Odd Blocks & OP Tools\"
+					}
+				}
+			},
+			{
+				\"text\": \"Effects & Tick Speed\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"change_page\",
+					\"value\": 5
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Potion Effects & Tick Speed\"
+					}
+				}
+			},
+			{
+				\"text\": \"Odd Entities & Jockeys\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"change_page\",
+					\"value\": 6
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Odd Entities & Jockeys\"
+					}
+				}
+			},
+			{
+				\"text\": \"Villagers\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"change_page\",
+					\"value\": 7
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Villagers\"
+					}
+				}
+			},
+			{
+				\"text\": \"Gamerules\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"change_page\",
+					\"value\": 8
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Gamerules\"
+					}
+				}
+			},
+			{
+				\"text\": \"Gamerules 2\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"change_page\",
+					\"value\": 9
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Gamerules Page 2\"
+					}
+				}
+			},
+			{
+				\"text\": \"Miscellaneous & Tags\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"change_page\",
+					\"value\": 10
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Miscellaneous & Nametags\"
+					}
+				}
+			}
+		]
+	",
+	"
+		[
+			\"\",
+			{
+				\"text\": \"         \"
+			},
+			{
+				\"text\": \"GENERAL\\n\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"text\": \"            Time\\n\",
+				\"color\": \"dark_aqua\"
+			},
+			{
+				\"text\": \"       \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"[ Day \",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/time set 6000\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Set time to 6000\"
+					}
+				}
+			},
+			{
+				\"text\": \"| Night ]\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/time set 18000\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Set time to 18000\"
+					}
+				}
+			},
+			{
+				\"text\": \"\\n          Weather\\n\",
+				\"color\": \"dark_aqua\"
+			},
+			{
+				\"text\": \"|\",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"[ Clear \",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/weather clear\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Set weather to clear\"
+					}
+				}
+			},
+			{
+				\"text\": \"| Rain |\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/weather rain\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Set weather to rainy\"
+					}
+				}
+			},
+			{
+				\"text\": \" Storm ]\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/weather thunder\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Set weather to rain and thunder\"
+					}
+				}
+			},
+			{
+				\"text\": \"\\n        Difficulty\",
+				\"color\": \"dark_aqua\"
+			},
+			{
+				\"text\": \" ۞\\n\",
+				\"color\": \"gold\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/difficulty peaceful\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Set difficulty to Peaceful\"
+					}
+				}
+			},
+			{
+				\"text\": \" \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"[ Easy \",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/difficulty easy\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Set difficulty to Easy\"
+					}
+				}
+			},
+			{
+				\"text\": \"| Norm |\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/difficulty normal\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Set difficulty to Normal\"
+					}
+				}
+			},
+			{
+				\"text\": \" Hard ]\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/difficulty hard\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Set difficulty to Hard\"
+					}
+				}
+			},
+			{
+				\"text\": \"\\n|        \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Gamemode\\n\",
+				\"color\": \"dark_aqua\"
+			},
+			{
+				\"text\": \"   \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"[ Sur \",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/gamemode survival\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Set gamemode to Survival\"
+					}
+				}
+			},
+			{
+				\"text\": \"| Cre |\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/gamemode creative\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Set gamemode to Creative\"
+					}
+				}
+			},
+			{
+				\"text\": \" Spe ]\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/gamemode spectator\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Set gamemode to Spectator\"
+					}
+				}
+			}
+		]
+	",
+	"
+		[
+			\"\",
+			{
+				\"text\": \"         \"
+			},
+			{
+				\"text\": \"TRAVEL\\n\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"text\": \"✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 120 42 120 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 1\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 60 42 120 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 2\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 0 42 120 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 3\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s -60 42 120 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 4\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s -120 42 120 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 5\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" C. Reef\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 615 63 898\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Coral Reef\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 120 42 60 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 6\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 60 42 60 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 7\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 0 42 60 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 8\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s -60 42 60 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 9\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s -120 42 60 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 10\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" Mesa\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers 685 -100 1 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Mesa\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 120 42 0 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 11\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 60 42 0 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 12\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 0 42 0 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 13\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s -60 42 0 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 14\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s -120 42 0 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 15\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" R. Forest\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers 1800 400 0 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Roofed Forest\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 120 42 -60 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 16\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 60 42 -60 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 17\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 0 42 -60 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 18\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s -60 42 -60 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 19\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s -120 42 -60 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 20\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" Extr. Hills\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers -1554 -520 0 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Extreme Hills\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 120 42 -120 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 21\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 60 42 -120 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 22\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 0 42 -120 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 23\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s -60 42 -120 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 24\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" ✘\",
+				\"color\": \"dark_gray\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s -120 42 -120 0 -10\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plot 25\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" Jungle\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers 1600 800 0 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Jungle\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|               \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Desert\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers 0 -1375 0 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Desert\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"      \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"N\",
+				\"color\": \"red\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers 0 -513 0 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Northern Border\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"        \",
+				\"color\": \"none\"
+			},
+			{
+				\"text\": \"Icebergs\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers -988 -105 0 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Icebergs\"
+							},
+							{
+								\"text\": \"\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"    \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"W\",
+				\"color\": \"gold\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s -513 63 0\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Western Border\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" | \",
+				\"color\": \"black\"
+			},
+			{
+				\"text\": \"E\",
+				\"color\": \"green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers 513 0 0 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Eastern Border\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"      \",
+				\"color\": \"none\"
+			},
+			{
+				\"text\": \"Savanna\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers 670 -1000 0 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Savanna\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"      \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"S\",
+				\"color\": \"blue\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/tp @s 0 63 512\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Southern Border\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"        \",
+				\"color\": \"none\"
+			},
+			{
+				\"text\": \"Mush Isle\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers -60 580 0 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Mushroom Island\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|               \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"F. Forest\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers -1960 297 0 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Flower Forest\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|               \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Taiga\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers -1000 1300 0 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Taiga\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|               \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Plains\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/spreadplayers -500 -975 0 1 false @s\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Goto Plains\"
+							}
+						]
+					}
+				}
+			}
+		]
+	",
+	"
+		[
+			\"\",
+			{
+				\"text\": \"      \"
+			},
+			{
+				\"text\": \"ODD BLOCKS\\n\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"text\": \"|     \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Command Block\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s command_block\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a command block\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|    \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Structure Block\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s structure_block\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a structure block\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|     \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Structure Void\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s structure_void\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a structure void\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"          \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Barrier\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s barrier\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a barrier\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|       \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Dragon Egg\\n\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s dragon_egg\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a Dragon Egg\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"        \",
+				\"color\": \"none\"
+			},
+			{
+				\"text\": \"OP TOOLS\\n\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"text\": \"    \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Fortune Pickaxe\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s diamond_pickaxe{Enchantments:[{id:\\\"minecraft:fortune\\\",lvl:1000}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a Fortune 1000 pickaxe\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|     \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Looting Sword\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s diamond_sword{Enchantments:[{id:\\\"minecraft:looting\\\",lvl:1000}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a Looting 1000 sword\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"   \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Sharpness Sword\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s diamond_sword{Enchantments:[{id:\\\"minecraft:sharpness\\\",lvl:1000}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a Sharpness 1000 sword\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|       \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Debug Stick\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s debug_stick\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a debug stick\"
+							}
+						]
+					}
+				}
+			}
+		]
+	",
+	"
+		[
+			{
+				\"text\": \"   \"
+			},
+			{
+				\"text\": \"POTION EFFECTS\\n\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"text\": \"|      \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Invulnerable\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s resistance 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle Invulnerability\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|       \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Night Vision\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s nightVision 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle Night Vision\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"       \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Instant Heal\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/effect give @s minecraft:instant_health 1 99 true\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Restore yourself to full health\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"      \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Conduit Power\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s conduitPower 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle Conduit Power\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"     \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Dolphin's Grace\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s dolphinGrace 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle Dolphin's Grace\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"       \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Instant Mine\\n\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s haste 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle Instant Mine\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"      \",
+				\"color\": \"none\"
+			},
+			{
+				\"text\": \"TICK SPEED\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"text\": \"\\n\\n|     \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"[x1]\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/gamerule randomTickSpeed 3\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Set the tick speed back to normal\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" [x3]\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/gamerule randomTickSpeed 9\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Increase tick speed by 3 times!\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" [x5]\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/gamerule randomTickSpeed 15\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Increase tick speed by 5 times!\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"\\n|     \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"[x10]\",
+				\"color\": \"dark_green\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/gamerule randomTickSpeed 30\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Increase the tick speed by 10 times!\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"[x100]\",
+				\"color\": \"dark_green\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/gamerule randomTickSpeed 300\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Increase the tick speed by 100 times!\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"\\n|        \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"[x1000]\",
+				\"color\": \"dark_aqua\",
+				\"bold\": true,
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/gamerule randomTickSpeed 3000\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Increase the tick speed by 1000 times!\"
+							}
+						]
+					}
+				}
+			}
+		]
+	",
+	"
+		[
+			{
+				\"text\": \"     \"
+			},
+			{
+				\"text\": \"ODD ENTITIES\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"text\": \"\\n            \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Giant\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon giant ~ ~ ~\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Spawn a Giant\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"\\n         \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Illusioner\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon illusioner ~ ~ ~\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Spawn an Illusioner\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"\\n       \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Killer Bunny\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon rabbit ~ ~ ~ {RabbitType:99}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Spawn a Killer Bunny\"
+							},
+							{
+								\"text\": \"\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"\\n           \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Wither\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon wither ~ ~ ~\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"WARNING!\",
+								\"color\": \"dark_red\"
+							},
+							{
+								\"text\": \"\\nThe wither can destroy blocks!\",
+								\"color\": \"red\"
+							},
+							{
+								\"text\": \"\\nSpawn a Wither\",
+								\"color\": \"white\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"\\n      \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Ender Dragon\\n\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon ender_dragon ~ ~ ~ {DragonPhase:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"WARNING!\",
+								\"color\": \"dark_red\"
+							},
+							{
+								\"text\": \"\\nThe dragon can destroy blocks!\",
+								\"color\": \"red\"
+							},
+							{
+								\"text\": \"\\nSpawn an Ender Dragon\",
+								\"color\": \"white\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"        \"
+			},
+			{
+				\"text\": \"JOCKEYS\\n\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"text\": \"Chicken\",
+				\"color\": \"dark_aqua\"
+			},
+			{
+				\"text\": \"       \"
+			},
+			{
+				\"text\": \"(1)\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon chicken ~ ~ ~ {Passengers:[{id:\\\"minecraft:zombie\\\",IsBaby:1b}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Zombie\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" (2)\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon chicken ~ ~ ~ {Passengers:[{id:\\\"minecraft:zombie_pigman\\\",IsBaby:1b}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Zombie Pigman\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" (3)\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon chicken ~ ~ ~ {Passengers:[{id:\\\"minecraft:husk\\\",IsBaby:1b}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Husk\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"Spider\",
+				\"color\": \"dark_green\"
+			},
+			{
+				\"text\": \"        \"
+			},
+			{
+				\"text\": \"(1)\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon spider ~ ~ ~ {Passengers:[{id:\\\"minecraft:skeleton\\\"}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Skeleton\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" (2)\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon spider ~ ~ ~ {Passengers:[{id:\\\"minecraft:wither_skeleton\\\"}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Wither Skeleton\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" (3)\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon spider ~ ~ ~ {Passengers:[{id:\\\"minecraft:stray\\\"}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Stray\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"Cave Spider\",
+				\"color\": \"dark_aqua\"
+			},
+			{
+				\"text\": \" \"
+			},
+			{
+				\"text\": \"(1)\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon cave_spider ~ ~ ~ {Passengers:[{id:\\\"minecraft:skeleton\\\"}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Skeleton\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" (2)\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon cave_spider ~ ~ ~ {Passengers:[{id:\\\"minecraft:wither_skeleton\\\"}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Wither Skeleton\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" (3)\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon cave_spider ~ ~ ~ {Passengers:[{id:\\\"minecraft:stray\\\"}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Stray\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"Horseman\",
+				\"color\": \"dark_green\"
+			},
+			{
+				\"text\": \"    \"
+			},
+			{
+				\"text\": \"(1)\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon skeleton_horse ~ ~ ~ {Tame:1,Passengers:[{id:\\\"minecraft:skeleton\\\",ArmorItems:[{},{},{},{id:\\\"minecraft:iron_helmet\\\",Count:1b}]}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Skeleton Horse\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \" (2)\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon zombie_horse ~ ~ ~ {Tame:1,Passengers:[{id:\\\"minecraft:skeleton\\\",ArmorItems:[{},{},{},{id:\\\"minecraft:iron_helmet\\\",Count:1b}]}]}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Zombie Horse\"
+							}
+						]
+					}
+				}
+			}
+		]
+	",
+	"
+		[
+			\"\",
+			{
+				\"text\": \"       \"
+			},
+			{
+				\"text\": \"VILLAGERS\\n\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"text\": \"Farmer\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:0,Career:1,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Farmer\"
+					}
+				}
+			},
+			{
+				\"text\": \"Fisherman\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:0,Career:2,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Fisherman\"
+					}
+				}
+			},
+			{
+				\"text\": \"Shepherd\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:0,Career:3,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Shepherd\"
+					}
+				}
+			},
+			{
+				\"text\": \"Fletcher\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:0,Career:4,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Fletcher\"
+					}
+				}
+			},
+			{
+				\"text\": \"Librarian\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:1,Career:1,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Librarian\"
+					}
+				}
+			},
+			{
+				\"text\": \"Cartographer\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:1,Career:2,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Cartographer\"
+					}
+				}
+			},
+			{
+				\"text\": \"    \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Nitwit\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:5,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Nitwit\"
+					}
+				}
+			},
+			{
+				\"text\": \"Cleric\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:2,Career:1,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Cleric\"
+					}
+				}
+			},
+			{
+				\"text\": \"Armorer\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:3,Career:1,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Armorer\"
+					}
+				}
+			},
+			{
+				\"text\": \"Weapon Smith\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:3,Career:2,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Weapon Smith\"
+					}
+				}
+			},
+			{
+				\"text\": \"Tool Smith\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:3,Career:3,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Tool Smith\"
+					}
+				}
+			},
+			{
+				\"text\": \"Butcher\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:4,Career:1,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Butcher\"
+					}
+				}
+			},
+			{
+				\"text\": \"Leatherworker\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/summon villager ~ ~ ~ {Profession:4,Career:2,CareerLevel:1}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"Spawn a Leatherworker\"
+					}
+				}
+			}
+		]
+	",
+	"
+		[
+			{
+				\"text\": \"       \"
+			},
+			{
+				\"text\": \"GAMERULES\\n\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"cmdBlockOutputB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Command Output\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s cmdBlockOutput 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether command blocks send their output to chat\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"score\": {
+					\"name\": \"#ender\",
+					\"objective\": \"enderBlockPickup\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Enderman Griefing\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s enderBlockPickup 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether enderman can pick up blocks\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"doEntityDropsB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Entity Drops\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s doEntityDrops 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether passive mobs drop their loot\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"doMobLootB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Mob Drops\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s doMobLoot 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether hostile mobs drop their loot\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"doMobSpawningB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Mob Spawning\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s doMobSpawning 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether hostile mobs spawn\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"mobGriefingB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Mob Griefing\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s mobGriefing 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether mobs can grief your world\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"doFireTickB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Fire Spread\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s doFireTick 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether fire can spread\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"doLimitedCraftB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Limited Crafting\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s doLimitedCraft 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether you can craft items you have not learnt\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"sendCmdFeedbackB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Command Feedback\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s sendCmdFeedback 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether commands executed by the player will display in chat\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"naturalRegenB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" UHC Regen\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s naturalRegen 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether a player can regenerate health using saturation\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"keepInventoryB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Keep Inventory\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s keepInventory 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether the player will keep their item upon death\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"doTileDropsB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Block Drops\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s doTileDrops 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether blocks broken will drop their respective item\"
+							}
+						]
+					}
+				}
+			}
+		]
+	",
+	"
+		[
+			\"\",
+			{
+				\"text\": \"       \"
+			},
+			{
+				\"text\": \"GAMERULES\\n\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"weatherB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Weather Cycle\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s weather 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether the weather can change\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"score\": {
+					\"name\": \"@p\",
+					\"objective\": \"daylightB\"
+				},
+				\"color\": \"gold\"
+			},
+			{
+				\"text\": \" Daylight Cycle\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players add @s daylight 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Toggle whether the time can change\"
+							}
+						]
+					}
+				}
+			}
+		]
+	",
+	"
+		[
+			\"\",
+			{
+				\"text\": \"|   \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"MISCELLANEOUS\\n\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"text\": \"|      \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Block Palette\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players set @s placePalette 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Create a plentiful, categorised block palette\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"       \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"EMMH Chests\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/scoreboard players set @s placeEMMH 1\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Create chests with all mob heads from EMMH\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|   \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Armor Stand Book\\n\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/function as_statue:enable\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get the customisable armor stands book\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|       \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"NAMETAGS\\n\\n\",
+				\"color\": \"red\",
+				\"bold\": true,
+				\"underlined\": true
+			},
+			{
+				\"text\": \"          \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Silence\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s name_tag{display:{Name:\\\"[\\\\\\\"Silence\\\\\\\"]\\\"}}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a nametag to silence entities\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|        \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"NoGravity\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s name_tag{display:{Name:\\\"[\\\\\\\"NoGravity\\\\\\\"]\\\"}}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a nametag to make entities float\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|      \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Invulnerable\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s name_tag{display:{Name:\\\"[\\\\\\\"Invulnerable\\\\\\\"]\\\"}}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a nametag to make entities invulnerable\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"          \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Glowing\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s name_tag{display:{Name:\\\"[\\\\\\\"Glowing\\\\\\\"]\\\"}}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a nametag to make entities glow\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|           \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"NoAI\\n\",
+				\"color\": \"dark_aqua\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s name_tag{display:{Name:\\\"[\\\\\\\"NoAI\\\\\\\"]\\\"}}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a nametag to make entities have No AI\"
+							}
+						]
+					}
+				}
+			},
+			{
+				\"text\": \"|      \",
+				\"color\": \"white\"
+			},
+			{
+				\"text\": \"Remove Tags\\n\",
+				\"color\": \"dark_green\",
+				\"clickEvent\": {
+					\"action\": \"run_command\",
+					\"value\": \"/give @s name_tag{display:{Name:\\\"[\\\\\\\"RemoveTags\\\\\\\"]\\\"}}\"
+				},
+				\"hoverEvent\": {
+					\"action\": \"show_text\",
+					\"value\": {
+						\"text\": \"\",
+						\"extra\": [
+							{
+								\"text\": \"Get a nametag to remove all tags applied by nametags\"
+							}
+						]
+					}
+				}
+			}
+		]
+	"
+]
